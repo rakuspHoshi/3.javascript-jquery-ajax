@@ -4,14 +4,14 @@ $(function(){
 
   //ex01
   $(function(){
-    $('#show').on('click', function(){
+    $('#show').click(function(){
       $('#name').css('visibility', 'visible');
     });
   });
 
   //ex02
   $(function(){
-    $('#colorChange').on('click', function() {
+    $('#colorChange').click(function() {
       $('#name').toggleClass('chang');
     });
   });
@@ -49,4 +49,4 @@ $(function(){
     });
   });
 
-  
+
